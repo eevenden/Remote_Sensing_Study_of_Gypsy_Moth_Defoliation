@@ -35,4 +35,4 @@ available in Python.
 ### Discriminant Analysis
 
 
-###TOC Classification Comparison
+### TOC Classification Comparison
