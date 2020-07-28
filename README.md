@@ -36,7 +36,7 @@ available in Python.
 ![Band8](https://user-images.githubusercontent.com/54719919/88695322-b9121880-d0cf-11ea-8bee-4daf7258e4cc.png)
 
 
-### Dataframe Preparaion
+### Dataframe Preparation
 
 
 ### Partial Component Analysis
