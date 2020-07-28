@@ -39,7 +39,7 @@ available in Python.
 ![GM_Head](https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png)
 
 ### Partial Component Analysis
-![PCA_Heat](https://user-images.githubusercontent.com/54719919/88702746-bae0d980-d0d9-11ea-9909-81c973fa6bd5.png)
+![PCA_Heat](https://user-images.githubusercontent.com/54719919/88703160-5c682b00-d0da-11ea-8005-753d7ff02470.png)
 
 ### TOC Curve Comparison
 ![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
