@@ -35,15 +35,14 @@ available in Python.
 ![Band7](https://user-images.githubusercontent.com/54719919/88695204-8ec05b00-d0cf-11ea-8ca2-b720f22d5cf4.png)
 ![Band8](https://user-images.githubusercontent.com/54719919/88695322-b9121880-d0cf-11ea-8bee-4daf7258e4cc.png)
 
-
 ### Dataframe Preparation
-
+![GM_Head](https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png)
 
 ### Partial Component Analysis
-
+![PCA_Heat](https://user-images.githubusercontent.com/54719919/88702746-bae0d980-d0d9-11ea-9909-81c973fa6bd5.png)
 
 ### TOC Curve Comparison
-
+![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
 
 ### Logistic Regression
 
