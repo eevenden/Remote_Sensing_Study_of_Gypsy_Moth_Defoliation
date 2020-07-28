@@ -18,7 +18,25 @@ available in Python.
 
 ## Methods
 ### Geoprocessing
+![Band1](https://user-images.githubusercontent.com/54719919/88694536-ad722200-d0ce-11ea-95c7-e6b6e43e3c6c.png)
 
+![Band2](https://user-images.githubusercontent.com/54719919/88694538-ad722200-d0ce-11ea-98a5-ad41332528ff.png)
+
+![Band3](https://user-images.githubusercontent.com/54719919/88694539-ad722200-d0ce-11ea-9afa-19a30ba76faa.png)
+
+![Band4](https://user-images.githubusercontent.com/54719919/88694541-ae0ab880-d0ce-11ea-98da-cd1849dd0237.png)
+
+![Band5](https://user-images.githubusercontent.com/54719919/88694542-ae0ab880-d0ce-11ea-9d63-1c75e67e7753.png)
+
+![Band6](https://user-images.githubusercontent.com/54719919/88694543-aea34f00-d0ce-11ea-824b-7b6bcfd3e4e2.png)
+
+![Band7](https://user-images.githubusercontent.com/54719919/88694544-aea34f00-d0ce-11ea-9af5-564fb4c0cad9.png)
+
+![Band8](https://user-images.githubusercontent.com/54719919/88694545-aea34f00-d0ce-11ea-9110-c9e598ccc3c3.png)
+
+![GM_Presence](https://user-images.githubusercontent.com/54719919/88694546-af3be580-d0ce-11ea-9c2d-474bd20f2bb5.png)
+
+![Land_Cover_2016](https://user-images.githubusercontent.com/54719919/88694547-af3be580-d0ce-11ea-998e-7a922c192653.png)
 
 ### Dataframe Preparaion
 
