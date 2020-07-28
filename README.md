@@ -18,25 +18,17 @@ available in Python.
 
 ## Methods
 ### Geoprocessing
-![Band1](https://user-images.githubusercontent.com/54719919/88694536-ad722200-d0ce-11ea-95c7-e6b6e43e3c6c.png)
+![Band1](https://user-images.githubusercontent.com/54719919/88695193-8d8f2e00-d0cf-11ea-8da8-7b1d400c459b.png)
+![Band2](https://user-images.githubusercontent.com/54719919/88695194-8d8f2e00-d0cf-11ea-9aaa-d62ddd7ae751.png)
+![Band3](https://user-images.githubusercontent.com/54719919/88695195-8e27c480-d0cf-11ea-94b3-182b0e430ac4.png)
+![Band4](https://user-images.githubusercontent.com/54719919/88695198-8e27c480-d0cf-11ea-94d1-407aa6f9cd6e.png)
+![Band5](https://user-images.githubusercontent.com/54719919/88695201-8e27c480-d0cf-11ea-8c79-bd3b8bd21ac1.png)
+![Band6](https://user-images.githubusercontent.com/54719919/88695203-8ec05b00-d0cf-11ea-8411-997c1f0338cd.png)
+![Band7](https://user-images.githubusercontent.com/54719919/88695204-8ec05b00-d0cf-11ea-8ca2-b720f22d5cf4.png)
+![Band8](https://user-images.githubusercontent.com/54719919/88695206-8ec05b00-d0cf-11ea-8de2-d1ca22cee319.png)
+![GM_Presence](https://user-images.githubusercontent.com/54719919/88695207-8ec05b00-d0cf-11ea-9677-c02417a57d3c.png)
+![Land_Cover_2016](https://user-images.githubusercontent.com/54719919/88695208-8ec05b00-d0cf-11ea-8082-d962d5462edb.png)
 
-![Band2](https://user-images.githubusercontent.com/54719919/88694538-ad722200-d0ce-11ea-98a5-ad41332528ff.png)
-
-![Band3](https://user-images.githubusercontent.com/54719919/88694539-ad722200-d0ce-11ea-9afa-19a30ba76faa.png)
-
-![Band4](https://user-images.githubusercontent.com/54719919/88694541-ae0ab880-d0ce-11ea-98da-cd1849dd0237.png)
-
-![Band5](https://user-images.githubusercontent.com/54719919/88694542-ae0ab880-d0ce-11ea-9d63-1c75e67e7753.png)
-
-![Band6](https://user-images.githubusercontent.com/54719919/88694543-aea34f00-d0ce-11ea-824b-7b6bcfd3e4e2.png)
-
-![Band7](https://user-images.githubusercontent.com/54719919/88694544-aea34f00-d0ce-11ea-9af5-564fb4c0cad9.png)
-
-![Band8](https://user-images.githubusercontent.com/54719919/88694545-aea34f00-d0ce-11ea-9110-c9e598ccc3c3.png)
-
-![GM_Presence](https://user-images.githubusercontent.com/54719919/88694546-af3be580-d0ce-11ea-9c2d-474bd20f2bb5.png)
-
-![Land_Cover_2016](https://user-images.githubusercontent.com/54719919/88694547-af3be580-d0ce-11ea-998e-7a922c192653.png)
 
 ### Dataframe Preparaion
 
