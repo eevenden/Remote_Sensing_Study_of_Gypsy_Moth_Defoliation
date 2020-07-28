@@ -15,3 +15,24 @@ differentiatingbetween the two classes.
 
 Note: This script uses R and Pythn simultaneously. This was done to access the TOC package available in R, but is not
 available in Python.
+
+##Methods
+###Geoprocessing
+
+
+###Dataframe Preparaion
+
+
+###Partial Component Analysis
+
+
+###TOC Curve Comparison
+
+
+###Logistic Regression
+
+
+###Discriminant Analysis
+
+
+###TOC Classification Comparison
