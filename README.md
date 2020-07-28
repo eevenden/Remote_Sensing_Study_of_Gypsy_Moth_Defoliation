@@ -1,6 +1,5 @@
 # Remote Sensing Analysis of Gypsy Moth Defoliation
-Author: Emily Evenden
-Date: July 13, 2020
+## Introduction
 
 Description: This script was developed alongside my Intermediate Quantiative Method course project.
 The purpose of this project was to identify the most appropriate remote sensing indicators of Gypsy Moth defoliation and
