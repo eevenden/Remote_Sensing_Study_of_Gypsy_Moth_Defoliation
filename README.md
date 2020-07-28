@@ -1,7 +1,7 @@
-# Remote Sensing Analysis of Gypsy Moth Defoliation
+# Evaluating Remote Sensing Indicators and Classification Methods of Gypsy Moth Defoliation
 ## Introduction
 
-Description: This script was developed alongside my Intermediate Quantiative Method course project.
+This script was developed alongside my Intermediate Quantiative Method course project.
 The purpose of this project was to identify the most appropriate remote sensing indicators of Gypsy Moth defoliation and
 compare two populer methods of binary classification, Logisitic Regression and Discriminant Analysis. The study area
 for this study is an area of Gypsy Moth defoliation in New England (RI, CT, and Southern MA) from 2016. 
