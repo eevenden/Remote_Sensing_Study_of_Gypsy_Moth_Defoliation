@@ -49,9 +49,11 @@ available in Python.
 ![AUC_Rank](https://user-images.githubusercontent.com/54719919/88841144-81789e80-d1ab-11ea-860a-82ed29902193.png)
 
 ### Logistic Regression
-
+![Confusion_Mat_LR_All](https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png)
+![Confusion_Mat_LR_Select](https://user-images.githubusercontent.com/54719919/89051033-a2fb9680-d321-11ea-86ef-662a204bb0f2.png)
 
 ### Discriminant Analysis
-
+![Confusion_Mat_DA_All](https://user-images.githubusercontent.com/54719919/89051029-a2630000-d321-11ea-8af3-6014d248ae1a.png)
+![Confusion_Mat_DA_Select](https://user-images.githubusercontent.com/54719919/89051031-a2630000-d321-11ea-8b5b-5922f38d461f.png)
 
 ### TOC Classification Comparison
