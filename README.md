@@ -44,16 +44,21 @@ available in Python.
 ![Comp_Percent](https://user-images.githubusercontent.com/54719919/88841146-82113500-d1ab-11ea-9cfb-a37f4a770281.png)
 
 ### TOC Curve Comparison
-![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
-
 ![AUC_Rank](https://user-images.githubusercontent.com/54719919/88841144-81789e80-d1ab-11ea-860a-82ed29902193.png)
+
+![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
 
 ### Logistic Regression
 ![Confusion_Mat_LR_All](https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png)
+
 ![Confusion_Mat_LR_Select](https://user-images.githubusercontent.com/54719919/89051033-a2fb9680-d321-11ea-86ef-662a204bb0f2.png)
 
 ### Discriminant Analysis
 ![Confusion_Mat_DA_All](https://user-images.githubusercontent.com/54719919/89051029-a2630000-d321-11ea-8af3-6014d248ae1a.png)
+
 ![Confusion_Mat_DA_Select](https://user-images.githubusercontent.com/54719919/89051031-a2630000-d321-11ea-8b5b-5922f38d461f.png)
 
 ### TOC Classification Comparison
+![AUC_Class](https://user-images.githubusercontent.com/54719919/89054027-1d2e1a00-d326-11ea-9674-d8d08d81ab3e.png)
+
+![GM_Classification_TOC](https://user-images.githubusercontent.com/54719919/89054040-24552800-d326-11ea-8f3c-cd92669c907b.jpg)
