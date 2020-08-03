@@ -64,4 +64,15 @@ available in Python.
 ![AUC_Class](https://user-images.githubusercontent.com/54719919/89054027-1d2e1a00-d326-11ea-9674-d8d08d81ab3e.png)
 
 ### Classification Results
+### Logisitic Regression
+
+![LR_All](https://user-images.githubusercontent.com/54719919/89191212-9a4ccf80-d570-11ea-885f-b7b7fcdb16ba.png)
+
+![LR_Select](https://user-images.githubusercontent.com/54719919/89191223-9d47c000-d570-11ea-8a41-3bb06472b94d.png)
+
+### Discriminant Analysis
+
+![DA_All](https://user-images.githubusercontent.com/54719919/89191194-93be5800-d570-11ea-86e5-b98ee578d2a2.png)
+
+![DA_Select](https://user-images.githubusercontent.com/54719919/89191202-9751df00-d570-11ea-9443-3cfd03e03326.png)
 
