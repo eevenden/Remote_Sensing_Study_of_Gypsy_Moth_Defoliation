@@ -69,9 +69,13 @@ available in Python.
 </p>
 
 ### TOC Classification Comparison
-![GM_Classification_TOC](https://user-images.githubusercontent.com/54719919/89054040-24552800-d326-11ea-8f3c-cd92669c907b.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54719919/89054040-24552800-d326-11ea-8f3c-cd92669c907b.jpg">
+  </p>
 
-![AUC_Class](https://user-images.githubusercontent.com/54719919/89054027-1d2e1a00-d326-11ea-9674-d8d08d81ab3e.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54719919/89054027-1d2e1a00-d326-11ea-9674-d8d08d81ab3e.png">
+  </p>
 
 ### Classification Results
 ### Logisitic Regression
