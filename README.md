@@ -74,7 +74,7 @@ available in Python.
   </p>
   
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89054027-1d2e1a00-d326-11ea-9674-d8d08d81ab3e.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209039-88c4f100-d58b-11ea-8ba3-148a27647f62.png">
   </p>
 
 ### Classification Results
