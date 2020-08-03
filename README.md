@@ -58,14 +58,14 @@ available in Python.
 
 ### Logistic Regression
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89051033-a2fb9680-d321-11ea-86ef-662a204bb0f2.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209783-f9b8d880-d58c-11ea-8c46-f88b1e47739d.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209785-fa516f00-d58c-11ea-8f42-197051325a4b.png">
 </p>
 
 ### Discriminant Analysis
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89051029-a2630000-d321-11ea-8af3-6014d248ae1a.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89051031-a2630000-d321-11ea-8b5b-5922f38d461f.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209781-f9b8d880-d58c-11ea-8596-96a3aa266716.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209782-f9b8d880-d58c-11ea-8da3-b07e5a63f34d.png">
 </p>
 
 ### TOC Classification Comparison
