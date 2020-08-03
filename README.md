@@ -57,8 +57,12 @@ available in Python.
 </p>
 
 ### Logistic Regression
-![Confusion_Mat_LR_All](https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89051033-a2fb9680-d321-11ea-86ef-662a204bb0f2.png">
+</p>
 
+![Confusion_Mat_LR_All](https://user-images.githubusercontent.com/54719919/89051032-a2fb9680-d321-11ea-81fd-e156f03d85d4.png)
 ![Confusion_Mat_LR_Select](https://user-images.githubusercontent.com/54719919/89051033-a2fb9680-d321-11ea-86ef-662a204bb0f2.png)
 
 ### Discriminant Analysis
