@@ -78,13 +78,11 @@ available in Python.
   </p>
 
 ### Classification Results
-### Logisitic Regression
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89191212-9a4ccf80-d570-11ea-885f-b7b7fcdb16ba.png">
   <img src="https://user-images.githubusercontent.com/54719919/89191223-9d47c000-d570-11ea-8a41-3bb06472b94d.png">
 </p>
 
-### Discriminant Analysis
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89191194-93be5800-d570-11ea-86e5-b98ee578d2a2.png">
   <img src="https://user-images.githubusercontent.com/54719919/89191202-9751df00-d570-11ea-9443-3cfd03e03326.png">
