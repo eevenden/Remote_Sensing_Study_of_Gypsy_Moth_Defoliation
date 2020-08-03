@@ -70,7 +70,7 @@ available in Python.
 
 ### TOC Classification Comparison
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89209044-895d8780-d58b-11ea-8150-42ee7817e1db.jpg">
+  <img src="https://user-images.githubusercontent.com/54719919/89209172-c7f34200-d58b-11ea-9f01-6826e105f7f0.jpg">
   </p>
   
 <p align="center">
