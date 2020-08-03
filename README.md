@@ -79,8 +79,8 @@ available in Python.
 
 ### Classification Results
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89191212-9a4ccf80-d570-11ea-885f-b7b7fcdb16ba.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89191223-9d47c000-d570-11ea-8a41-3bb06472b94d.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209046-895d8780-d58b-11ea-9550-db9ed82ae182.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89209047-895d8780-d58b-11ea-9a19-ce44530d1abb.png">
 </p>
 
 <p align="center">
