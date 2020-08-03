@@ -20,9 +20,13 @@ available in Python.
 ### Geoprocessing
 
 ### Data Provided by PhD Student
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54719919/88695207-8ec05b00-d0cf-11ea-9677-c02417a57d3c.png">
+</p>
 
-![GM_Presence](https://user-images.githubusercontent.com/54719919/88695207-8ec05b00-d0cf-11ea-9677-c02417a57d3c.png)
-![Land_Cover_2016](https://user-images.githubusercontent.com/54719919/88695208-8ec05b00-d0cf-11ea-8082-d962d5462edb.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/54719919/88695208-8ec05b00-d0cf-11ea-8082-d962d5462edb.png">
+</p>
 
 ### Landsat 8 Imagery
 
