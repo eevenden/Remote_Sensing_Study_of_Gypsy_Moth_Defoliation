@@ -63,7 +63,7 @@ The image below shows the first five components produced from PCA. Red-colors in
   <img src="https://user-images.githubusercontent.com/54719919/88841294-c00e5900-d1ab-11ea-9563-00ea97a2be04.jpeg">
 </p>
 
-This table shows the eigenvalues and percent variance explained by each component. Component 1 explains approximately 72% of the data variance.
+This table shows the eigenvalues and percent variance explained by each component. Component 1 explains approximately 74% of the data variance.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841146-82113500-d1ab-11ea-9cfb-a37f4a770281.png">
