@@ -13,7 +13,7 @@ Component Analysis to assess which remote sensing indicators were best for ident
 binary classification as a "truth", I assessed whether Logistic Regression or Discriminant Analysis was better at
 differentiating between the two classes.
 
-Note: This script uses R and Pythn simultaneously. This was done to access the TOC package available in R, but is not
+Note: This script uses R and Python simultaneously. This was done to access the TOC package available in R, but is not
 available in Python.
 
 ## Methods
