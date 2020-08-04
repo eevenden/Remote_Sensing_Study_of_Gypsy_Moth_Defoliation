@@ -86,14 +86,14 @@ This table ranks each variable according to its corrected AUC value. Notice, the
 ### Logistic Regression
 Thes second portion of this project compares two binary parametric classification techniques, Logisitic Regrssion and Discriminant Analysis, and determines whether either method is better at identifying defoliation. For both methods, I created two models: the first contains all of the potential independent variables and the second includes three independent variables with the highest corrected AUC values (i.e. NDMI, Tassled Cap Wetness, NDVI, and Tasseled Cap Greeness). The normalzed correlation matrices below show the relative success of each model when classifying defoliation.
 
-                                   Model 1 Results                                            Model 2 Results
+                                  Model 1 Results                                            Model 2 Results
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327893-972e0e00-d65a-11ea-92e4-68f547a1f4d7.png">
   <img src="https://user-images.githubusercontent.com/54719919/89327894-972e0e00-d65a-11ea-9df4-04cf067ad196.png">
 </p>
 
 ### Discriminant Analysis
-Change these
+                                  Model 1 Results                                            Model 2 Results
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327891-96957780-d65a-11ea-86df-8a0a77a13f0a.png">
   <img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
