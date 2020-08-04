@@ -57,7 +57,7 @@ Finally, I created a new dataframe which only includes the rows from the cloudle
 
 For this study, I utilized PCA and the Total Operating Characteristic (TOC) Curves to identify remote sensing indicators best for discriminating defoliation. PCA is a method of reducing data dimensionality by creating orthogonal linear axes to describe "components" of a dataset. TOC Curves are similar to Receiving Operatign Characteristic (ROC) Curves and evaluate the ability of index variables to identify presence or absence of a charactertisitic. 
 
-The image below shows the first five components produced from 
+The image below shows the first five components produced from PCA. Red-colors indicate a positive correlation between a variable and component, while blue-colors indicate a negative correlation. In this case, I think the most important component to examine is Component 1, especically when compared to the the TOC results in the next section. I think this component differentiates between the Foliated and Defoliated pixel. More specifically, I believe 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841294-c00e5900-d1ab-11ea-9563-00ea97a2be04.jpeg">
