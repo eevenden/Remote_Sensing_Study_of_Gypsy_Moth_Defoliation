@@ -77,7 +77,7 @@ The graph below displays the TOC curves for each variable. All TOC curves in thi
 
 ![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
 
-This table ranks each variable according to its corrected AUC value. Notice, the variables identified as having a strong negative correlation with Defoliation in PCA had the highest corrected AUC values when using TOC. Using this information, one can corroberate that NDVI, NDMI, Tasseled Cap Greeness, and Tasseled Cap Wetness are helpful variables for identifying defoliation. It's debatable whether all of these variables are needed to model defoliation because they are correlated with each other. 
+This table ranks each variable according to its corrected AUC value. Notice, the variables identified as having a strong negative correlation with Defoliation in PCA had the highest corrected AUC values when using TOC. Using this information, one can corroberate that NDVI, NDMI, and Tasseled Cap Wetness are helpful variables for identifying defoliation. It's debatable whether all of these variables are needed to model defoliation because they are correlated with each other. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841144-81789e80-d1ab-11ea-860a-82ed29902193.png">
