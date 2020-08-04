@@ -5,19 +5,23 @@ This script was developed alongside my Intermediate Quantiative Method course pr
 The purpose of this project was to identify the most appropriate remote sensing indicators of Gypsy Moth defoliation and
 compare two populer methods of binary classification, Logisitic Regression and Discriminant Analysis. The study area
 for this study is an area of Gypsy Moth defoliation in New England (RI, CT, and Southern MA) from 2016. 
-This project used the Landsat8 imagery (Bands1-7) and two raster layers provided by Su Ye at Clark University. The first layer is a NLCD
+This project used the Landsat8 imagery (Bands1-7) and two raster layers provided by a doctoral student at Clark University. The first layer is a NLCD
 landcover map of the study area. The second layer is a binary classification of defoliation derived from the S-CCD algorithm.
 
 In this script, first I geoprocess the raster layers and prepare them for analysis. Then, I used TOC curves and Partial
-Component Analysis to assess which remote sensing indicators were best for identifying defoliation. Finally, using Su's
+Component Analysis to assess which remote sensing indicators were best for identifying defoliation. Finally, using th doctoral student's
 binary classification as a "truth", I assessed whether Logistic Regression or Discriminant Analysis was better at
-differentiatingbetween the two classes.
+differentiating between the two classes.
 
 Note: This script uses R and Pythn simultaneously. This was done to access the TOC package available in R, but is not
 available in Python.
 
 ## Methods
 ### Geoprocessing
+
+The Landsat8 imagery was sourced from Google Earth Engine. The javascript code is available in this repo. I downloaded Bands 1-7 as well as a cloud mask layer.
+
+To geoprocess the imagery, first I reprojected the eight Landsat bands and the two provided data layers to the Albers Equal Area 83 projection and updated their metadata. I chose this projection to perserve area in case I wanted to calculate area statistics. Next, I clipped each image to a bounding box and exported the clipped imagery as new TIF files. The final version of the data is sohwn below.
 
 ### Data Provided by PhD Student
 
@@ -36,6 +40,9 @@ available in Python.
 ![Band8](https://user-images.githubusercontent.com/54719919/88695322-b9121880-d0cf-11ea-8bee-4daf7258e4cc.png)
 
 ### Dataframe Preparation
+
+Once my imagery is prepared, I flattened each raster layer to a 1D array and stacked them to create a pandas dataframe. By converting the raster data to a dataframe, I can apply a lot of statistical and machine learning methods which are otherwise limited to proprietary software. 
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png">
 </p>
