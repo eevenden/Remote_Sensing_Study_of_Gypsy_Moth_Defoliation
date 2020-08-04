@@ -132,4 +132,4 @@ These final maps showcase the classification results from each model. "Hits" rep
   <img src="https://user-images.githubusercontent.com/54719919/89339282-e466ab80-d66b-11ea-8b0d-39b59c091d4a.png">
 </p>
 
-It's very interesting to compare the "Discriminant Ananlysis - All" and "Logistic Regression - All" because they perform similarly in the confusion matrix, but show very different spatial patterns in the classication results. 
+It's very interesting to compare the "Discriminant Analysis - All" and "Logistic Regression - All" because they perform similarly in the confusion matrix, but show very different spatial patterns in the classication results. Specifically, the "Logistic Regresion - All" model shows clusters of False Alarms and more Hits near the Defoliated training data. Meanwhile, the same categories seem to be more dispersed in the classificarion results produced by the "Discriminant Analysis - All" model.
