@@ -70,7 +70,14 @@ This table shows the eigenvalues and percent variance explained by each componen
 </p>
 
 ### TOC Curve Comparison
+
+In this TOC curve, the x-axis is Hits + False Alarms, where the maximum x-value is the size of the study area (limited to cloudless Deciduous and Mixed forest) where defoliation is theoretically possible. The y-axis is Hits, where the maximum value on the y-axis is the size of defoliation as indicating by the data provided by the doctoral student. The most important take away from these graphs is the steepness and Area Under the Curve (AUC) values of the TOC curves. Steeper curves with a higher AUC values indicate that a particular variable can discriminate defoliated areas better than less-steep curves with lower AUC values. 
+
+The graph below displays the TOC curves for each variable. All TOC curves in this study will be descending, meaning the highest index values (i.e. the brightest Band value or the highest Remote Sensing index value) will be closest to the origin. Notice that some TOC curves are convex (above the Uniform line) and some are concave (below the Uniform line). Normally, a concave TOC curve has a low AUC value because it identifies presence of a characterisitic later than other variables. However, for this study, I am not concerned with whether a variable identifies presence first or last. Therefore, I subtracted AUC values below 0.50 from 1 to find the area above the curve. This allows me to identify the steepest TOC curves without penalizing whether high or low brightness or index values are associated with defoliation.
+
 ![GM_Multi_TOC_Exported](https://user-images.githubusercontent.com/54719919/88701195-b3203580-d0d7-11ea-8139-420cbb8989a5.png)
+
+This table ranks each variable according to its corrected AUC value. Notice, the variables identified as having a strong negative correlation with Defoliation in PCA had the highest corrected AUC values when using TOC. Using this information, one can corroberate that NDVI, NDMI, Tasseled Cap Greeness, and Tasseled Cap Wetness are helpful variables for identifying defoliation. It's debatable whether all of these variables are needed to model defoliation because they are correlated with each other. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841144-81789e80-d1ab-11ea-860a-82ed29902193.png">
