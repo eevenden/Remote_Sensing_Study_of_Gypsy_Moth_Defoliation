@@ -46,15 +46,18 @@ Once my imagery is prepared, I flattened each raster layer to a 1D array and sta
 
 To further prepare the dataframe, I replaced all null values with zero. Additionally, I limited the data to only cloudless areas with either a deciduous or mixed forest landuse. Rows which are do not fall in these categories were replaced which zeros. I decided to do this to eliminate extranious information, but maintain the dataframe structure. I wanted to be able to match my final products to the original index in order to export new TIFs with the same dimensions and georeferencing.
 
-Finally, I added several new columns and calculated remote sensing indices including: NDVI, SAVI, MSAVI, NDMI, Tassled Cap Brightness, Tasseled Cap Greenness, and Tasseled Cap Wetness. Not all columns are seen in the image below.
+Finally, I created a new dataframe which only includes the rows from the cloudless land-uses I'm targeting, but maintains the original index. Within this limited dataframe, I created several new columns and calculated remote sensing indices including: NDVI, SAVI, MSAVI, NDMI, Tassled Cap Brightness, Tasseled Cap Greenness, and Tasseled Cap Wetness. Not all columns are seen in the image below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png">
 </p>
 
+
 ### Partial Component Analysis (PCA)
 
 For this study, I utilized PCA and the Total Operating Characteristic (TOC) Curves to identify remote sensing indicators best for discriminating defoliation. PCA is a method of reducing data dimensionality by creating orthogonal linear axes to describe "components" of a dataset. TOC Curves are similar to Receiving Operatign Characteristic (ROC) Curves and evaluate the ability of index variables to identify presence or absence of a charactertisitic. 
+
+The image below shows the first five components produced from 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841294-c00e5900-d1ab-11ea-9563-00ea97a2be04.jpeg">
