@@ -19,9 +19,9 @@ available in Python.
 ## Methods
 ### Geoprocessing
 
-The Landsat8 imagery was sourced from Google Earth Engine. The javascript code is available in this repo. I downloaded Bands 1-7 as well as a cloud mask layer.
+The Landsat8 imagery was sourced from Google Earth Engine. The javascript code is available in this repo. I downloaded Bands 1-7 as well as a cloud mask layer for one Landsat scene.
 
-To geoprocess the imagery, first I reprojected the eight Landsat bands and the two provided data layers to the Albers Equal Area 83 projection and updated their metadata. I chose this projection to perserve area in case I wanted to calculate area statistics. Next, I clipped each image to a bounding box and exported the clipped imagery as new TIF files. The final version of the data is sohwn below.
+To geoprocess the imagery, first I reprojected the eight Landsat bands and the two provided data layers to the Albers Equal Area 1983 projection and updated their metadata. I chose this projection to perserve area in case I wanted to calculate area statistics. Next, I clipped each image to a bounding box and exported the clipped imagery as new TIF files. The final version of the data is shown below. Geoprocessing was done using the Rasterio library.
 
 ### Data Provided by PhD Student
 
