@@ -84,18 +84,24 @@ This table ranks each variable according to its corrected AUC value. Notice, the
 </p>
 
 ### Logistic Regression
+Thes second portion of this project compares two binary parametric classification techniques, Logisitic Regrssion and Discriminant Analysis, and determines whether either method is better at identifying defoliation. For both methods, I created two models: the first contains all of the potential independent variables and the second includes three independent variables with the highest corrected AUC values (i.e. NDMI, Tassled Cap Wetness, and NDVI). The normalzed correlation matrices below show the relative success of each model when classifying defoliation.
+
+                                       Model 1 Results                                                  Model 2 Results
+Change these
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89209783-f9b8d880-d58c-11ea-8c46-f88b1e47739d.png">
   <img src="https://user-images.githubusercontent.com/54719919/89209785-fa516f00-d58c-11ea-8f42-197051325a4b.png">
 </p>
 
 ### Discriminant Analysis
+Change these
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89209781-f9b8d880-d58c-11ea-8596-96a3aa266716.png">
   <img src="https://user-images.githubusercontent.com/54719919/89209782-f9b8d880-d58c-11ea-8da3-b07e5a63f34d.png">
 </p>
 
 ### TOC Classification Comparison
+Change these
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89209172-c7f34200-d58b-11ea-9f01-6826e105f7f0.jpg">
   </p>
@@ -105,6 +111,7 @@ This table ranks each variable according to its corrected AUC value. Notice, the
   </p>
 
 ### Classification Results
+Change these
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89210238-c165ca00-d58d-11ea-8f61-88c2f821c621.png">
   <img src="https://user-images.githubusercontent.com/54719919/89210239-c1fe6080-d58d-11ea-8431-ed25eab199a1.png">
