@@ -123,11 +123,11 @@ When ranking the AUC values for each model, we see that "Discriminant Analysis -
 These final maps showcase the classification results from each model. "Hits" represent pixels which were correctly identified as Defoliated. "False Alarms" are pixels labeled as Foliated in the "true" layer, but classified as Defoliated in the models. "Misses" are pixels which were labeled as Defoliated in the "true" layer, but classified as Foliated in the model. Finally, "Correct Rejections" are pixels correctly identified as Foliated. 
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89327900-97c6a480-d65a-11ea-8358-314c9aedc6da.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89327888-95fce100-d65a-11ea-9a30-78003c9198f9.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89339284-e466ab80-d66b-11ea-8f74-5afd816c10b1.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89339286-e4ff4200-d66b-11ea-8025-38dc65951d43.png">
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89327895-972e0e00-d65a-11ea-82a9-28af636a843c.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89327898-97c6a480-d65a-11ea-8fda-6cccfe15fc7d.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89339280-e3ce1500-d66b-11ea-8556-3ba5937a9738.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89339282-e466ab80-d66b-11ea-8b0d-39b59c091d4a.png">
 </p>
