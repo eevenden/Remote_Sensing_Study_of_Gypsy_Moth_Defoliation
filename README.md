@@ -42,8 +42,11 @@ To geoprocess the imagery, first I reprojected the eight Landsat bands and the t
 
 ### Dataframe Preparation
 
-Once my imagery is prepared, I flattened each raster layer to a 1D array and stacked them to create a pandas dataframe. By converting the raster data to a dataframe, I can apply a lot of statistical and machine learning methods which are otherwise limited to proprietary software. To further prepare the dataframe, I replaced all null values with "0". 
-Finally, I limited the data to only cloudless areas with either a deciduous or mixed forest landuse. Rows which are do not fall in these categories were replaced which zeros. I decided to do this to eliminate extranious information, but maintain the dataframe structure. I wanted to be able to match my final products to the original index in order to export new TIFs with the same dimensions and georeferencing. 
+Once my imagery is prepared, I flattened each raster layer to a 1D array and stacked them to create a pandas dataframe. By converting the raster data to a dataframe, I can apply a lot of statistical and machine learning methods which are otherwise limited to proprietary software. 
+
+To further prepare the dataframe, I replaced all null values with zero. Additionally, I limited the data to only cloudless areas with either a deciduous or mixed forest landuse. Rows which are do not fall in these categories were replaced which zeros. I decided to do this to eliminate extranious information, but maintain the dataframe structure. I wanted to be able to match my final products to the original index in order to export new TIFs with the same dimensions and georeferencing.
+
+Finally, I added several new columns and calculated remote sensing indices including: NDVI, SAVI, MSAVI, NDMI, Tassled Cap Brightness, Tasseled Cap Greenness, and Tasseled Cap Wetness. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png">
