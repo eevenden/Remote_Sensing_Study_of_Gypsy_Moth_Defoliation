@@ -106,11 +106,15 @@ The normalized correlation matrices below show the relative success of each mode
 Based on these four matrices, the Discriminant Analysis - Select Variables model has the most success when identifying defoliated pixels. However, it does not perform as well as the Discriminant Analysis - All model or the Logistic Regression - All model when identifying foliated pixels. As a result, it's somewhat difficult to evaluate which model is the best. One way we can rank the performance of each model is using TOC curves. 
 
 ### TOC Classification Comparison
-Like the previous TOC curve, TOC curve, the x-axis is Hits + False Alarms, where the maximum x-value is the size of the study area (limited to cloudless Deciduous and Mixed forest) where defoliation is theoretically possible. The y-axis is Hits, where the maximum value on the y-axis is the size of defoliation as indicating by the data provided by the doctoral student. In this case, the index variables are the outputs from the linear equations produced by the 
+Like the previous TOC curve, TOC curve, the x-axis is Hits + False Alarms, where the maximum x-value is the size of the study area (limited to cloudless Deciduous and Mixed forest) where defoliation is theoretically possible. The y-axis is Hits, where the maximum value on the y-axis is the size of defoliation as indicating by the data provided by the doctoral student. In this case, the index variables are the outputs from the linear equations produced by the the Logisitic Regression and Discriminant Analysis models.
+Based on the TOC curve we see that all models perform relatively equal when discriminating between Foliated and Defoliated Trees.
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327920-a1500c80-d65a-11ea-9e23-2ac71da8848e.jpg">
   </p>
-  
+
+When ranking the AUC values for each model, we see that discriminant analysis using all of the independent variables performs the best (marginally). Followed by logistic regression using all the variables. However, when comparing model performance using select variables, discriminant analysis outperforms logistic regression. This could suggest the two method perform similarly when given a lot of information. However, discriminant analysis may be more robust when the user reduces the number of independent variables. 
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327889-96957780-d65a-11ea-936d-a9651102312c.png">
   </p>
