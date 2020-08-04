@@ -86,38 +86,37 @@ This table ranks each variable according to its corrected AUC value. Notice, the
 ### Logistic Regression
 Thes second portion of this project compares two binary parametric classification techniques, Logisitic Regrssion and Discriminant Analysis, and determines whether either method is better at identifying defoliation. For both methods, I created two models: the first contains all of the potential independent variables and the second includes three independent variables with the highest corrected AUC values (i.e. NDMI, Tassled Cap Wetness, NDVI, and Tasseled Cap Greeness). The normalzed correlation matrices below show the relative success of each model when classifying defoliation.
 
-                                   Model 1 Results                                       Model 2 Results
-Change these
+                                   Model 1 Results                                            Model 2 Results
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89209783-f9b8d880-d58c-11ea-8c46-f88b1e47739d.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89209785-fa516f00-d58c-11ea-8f42-197051325a4b.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327893-972e0e00-d65a-11ea-92e4-68f547a1f4d7.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327894-972e0e00-d65a-11ea-9df4-04cf067ad196.png">
 </p>
 
 ### Discriminant Analysis
 Change these
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89209781-f9b8d880-d58c-11ea-8596-96a3aa266716.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89209782-f9b8d880-d58c-11ea-8da3-b07e5a63f34d.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327891-96957780-d65a-11ea-86df-8a0a77a13f0a.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
 </p>
 
 ### TOC Classification Comparison
 Change these
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89209172-c7f34200-d58b-11ea-9f01-6826e105f7f0.jpg">
+  <img src="https://user-images.githubusercontent.com/54719919/89327920-a1500c80-d65a-11ea-9e23-2ac71da8848e.jpg">
   </p>
   
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89209039-88c4f100-d58b-11ea-8ba3-148a27647f62.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327889-96957780-d65a-11ea-936d-a9651102312c.png">
   </p>
 
 ### Classification Results
 Change these
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89210238-c165ca00-d58d-11ea-8f61-88c2f821c621.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89210239-c1fe6080-d58d-11ea-8431-ed25eab199a1.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327900-97c6a480-d65a-11ea-8358-314c9aedc6da.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327888-95fce100-d65a-11ea-9a30-78003c9198f9.png">
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/54719919/89210235-c0cd3380-d58d-11ea-87fc-3805131e0abc.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89210237-c165ca00-d58d-11ea-84a8-6a8a89347dad.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327895-972e0e00-d65a-11ea-82a9-28af636a843c.png">
+  <img src="https://user-images.githubusercontent.com/54719919/89327898-97c6a480-d65a-11ea-8fda-6cccfe15fc7d.png">
 </p>
