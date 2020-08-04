@@ -131,3 +131,5 @@ These final maps showcase the classification results from each model. "Hits" rep
   <img src="https://user-images.githubusercontent.com/54719919/89339280-e3ce1500-d66b-11ea-8556-3ba5937a9738.png">
   <img src="https://user-images.githubusercontent.com/54719919/89339282-e466ab80-d66b-11ea-8b0d-39b59c091d4a.png">
 </p>
+
+It's very interesting to compare the "Discriminant Ananlysis - All" and "Logistic Regression - All" because they perform similarly in the confusion matrix, but show very different spatial patterns in the classication results. 
