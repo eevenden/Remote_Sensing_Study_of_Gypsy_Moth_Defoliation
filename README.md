@@ -9,7 +9,7 @@ This project used the Landsat8 imagery (Bands1-7) and two raster layers provided
 landcover map of the study area. The second layer is a binary classification of defoliation derived from the S-CCD algorithm.
 
 In this script, first I geoprocess the raster layers and prepare them for analysis. Then, I used TOC curves and Partial
-Component Analysis to assess which remote sensing indicators were best for identifying defoliation. Finally, using th doctoral student's
+Component Analysis to assess which remote sensing indicators were best for identifying defoliation. Finally, using the doctoral student's
 binary classification as a "truth", I assessed whether Logistic Regression or Discriminant Analysis was better at
 differentiating between the two classes.
 
@@ -19,9 +19,9 @@ available in Python.
 ## Methods
 ### Geoprocessing
 
-The Landsat8 imagery was sourced from Google Earth Engine. The javascript code is available in this repo. I downloaded Bands 1-7 as well as a cloud mask layer for one Landsat scene.
+The Landsat8 imagery was sourced from Google Earth Engine. The javascript code is available in this repo. I downloaded Bands 1-7 as well as a cloud mask layer for one Landsat scene in July, 2016.
 
-To geoprocess the imagery, first I reprojected the eight Landsat bands and the two provided data layers to the Albers Equal Area 1983 projection and updated their metadata. I chose this projection to perserve area in case I wanted to calculate area statistics. Next, I clipped each image to a bounding box and exported the clipped imagery as new TIF files. The final version of the data is shown below. Geoprocessing was done using the Rasterio library.
+To geoprocess the imagery, first I reprojected the eight Landsat bands and the two provided raster layers to the Albers Equal Area 1983 projection and updated their metadata. I chose this projection to perserve area in case I wanted to calculate area statistics. Next, I clipped each image to a bounding box and exported the clipped imagery as new TIF files. The final version of the data is shown below. Geoprocessing was done using the Rasterio library.
 
 ### Data Provided by PhD Student
 
@@ -44,9 +44,9 @@ To geoprocess the imagery, first I reprojected the eight Landsat bands and the t
 
 Once my imagery is prepared, I flattened each raster layer to a 1D array and stacked them to create a pandas dataframe. By converting the raster data to a dataframe, I can apply a lot of statistical and machine learning methods which are otherwise limited to proprietary software. 
 
-To further prepare the dataframe, I replaced all null values with zero. Additionally, I limited the data to only cloudless areas with either a deciduous or mixed forest landuse. Rows which are do not fall in these categories were replaced which zeros. I decided to do this to eliminate extranious information, but maintain the dataframe structure. I wanted to be able to match my final products to the original index in order to export new TIFs with the same dimensions and georeferencing.
+To further prepare the dataframe, I replaced all null values with zero. Additionally, I limited the data to only cloudless areas with either a deciduous or mixed forest landuse. Rows do not fall in these categories were replaced which zeros. I decided to do this to eliminate extranious information, but maintain the dataframe structure. I wanted to be able to match my final products to the original index in order to export new TIFs with the same dimensions and georeferencing.
 
-Finally, I created a new dataframe which only includes the rows from the cloudless land-uses I'm targeting, but maintains the original index. Within this limited dataframe, I created several new columns and calculated remote sensing indices including: NDVI, SAVI, MSAVI, NDMI, Tassled Cap Brightness, Tasseled Cap Greenness, and Tasseled Cap Wetness. Not all columns are seen in the image below.
+Finally, I created a new dataframe which only includes the rows from the cloudless land-uses I'm targeting, but maintains the original index. Within this limited dataframe, I created several new columns and calculated remote sensing indices including: Normalized Difference Vegetation Index (NDVI), Soil adjusted Vegetation Index (SAVI), Modified Soil Adjusted Vegetation Index (MSAVI), Normalized Difference Moisture Index (NDMI), Tassled Cap Brightness, Tasseled Cap Greenness, and Tasseled Cap Wetness. Not all columns are seen in the image below.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88701222-b87d8000-d0d7-11ea-91c2-7414fea796cf.png">
@@ -57,7 +57,7 @@ Finally, I created a new dataframe which only includes the rows from the cloudle
 
 For this study, I utilized PCA and the Total Operating Characteristic (TOC) Curves to identify remote sensing indicators best for discriminating defoliation. PCA is a method of reducing data dimensionality by creating orthogonal linear axes to describe "components" of a dataset. TOC Curves are similar to Receiving Operatign Characteristic (ROC) Curves and evaluate the ability of index variables to identify presence or absence of a charactertisitic. 
 
-The image below shows the first five components produced from PCA. Red-colors indicate a positive correlation between a variable and component, while blue-colors indicate a negative correlation. In this case, I think the most important component to examine is Component 1, especically when compared to the the TOC results in the next section. I think this component differentiates between the Foliated and Defoliated pixel. More specifically, I think Band 5, NDVI, NDMI, TC Greeness, and TC Wetness are the variables most important variables for differentiating Defoliation. 
+The image below shows the first five components produced from PCA. Red-colors indicate a positive correlation between a variable and component, while blue-colors indicate a negative correlation. In this case, I think the most important component to examine is Component 1, especically when compared to the the TOC results in the next section. I think this component differentiates between the Foliated and Defoliated pixel. More specifically, I think NDVI, NDMI, Tasseled Cap Greeness, and Tasseled Cap Wetness are the variables most important variables for differentiating Defoliation. 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/88841294-c00e5900-d1ab-11ea-9563-00ea97a2be04.jpeg">
@@ -135,3 +135,6 @@ These final maps showcase the classification results from each model. "Hits" rep
 It's very interesting to compare the "Discriminant Analysis - All" and "Logistic Regression - All" because they perform similarly in the confusion matrix, but show very different spatial patterns in the classication results. Specifically, the "Logistic Regresion - All" model shows clusters of False Alarms and more Hits near the Defoliated training data. Meanwhile, the same categories seem to be more dispersed in the classificarion results produced by the "Discriminant Analysis - All" model.
 
 ## Conclusions
+Some of the most important remote sensing indicators of defoliation are NDMI, NDVI, Tasseled Cap Greeness, and Tasseled Cap Wetness. Based on my remote sensing knowledge, these indices can be grouped into two groups: Vegetation & Moisture. NDVI and Tasseled Cap Greeneness both attempt to highlight vegetation, while NDMI and Tasseled Cap Wetness attempt to contrast moist and dry areas. This is important when discussing Foliated and Defoliated trees because leaves are generally, positively correlated with vegetation and mositure indices, whereas non-photosynthetic vegetation like bark is generally, negatively correlated with vegetation and moisture indices.
+
+There is very little difference in model performance when one examines the correlation matrices, though the models which utilize all of the independent variables slightly outperform the models with select variables. This underscores a known concept that adding many variables does not necessarily produce better model outcomes. Perhaps most noteably, the spatial distribution of the classification result differ when one examines the maps. For example, it would be interesting further explore why the "Logistic Regression - All" model produces noticeable spatial clusters of False Alarms, but the same pattern isn't apparent in the outcomes from the "Discriminant Ananlysis - All" model. 
