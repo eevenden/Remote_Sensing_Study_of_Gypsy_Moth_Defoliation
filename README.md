@@ -103,8 +103,10 @@ The normalized correlation matrices below show the relative success of each mode
   <img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
 </p>
 
+Based on these four matrices, the Discriminant Analysis - Select Variables model has the most success when identifying defoliated pixels. However, it does not perform as well as the Discriminant Analysis - All model or the Logistic Regression - All model when identifying foliated pixels. As a result, it's somewhat difficult to evaluate which model is the best. One way we can rank the performance of each model is using TOC curves. 
+
 ### TOC Classification Comparison
-Change these
+Like the previous TOC curve, TOC curve, the x-axis is Hits + False Alarms, where the maximum x-value is the size of the study area (limited to cloudless Deciduous and Mixed forest) where defoliation is theoretically possible. The y-axis is Hits, where the maximum value on the y-axis is the size of defoliation as indicating by the data provided by the doctoral student. In this case, the index variables are the outputs from the linear equations produced by the 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327920-a1500c80-d65a-11ea-9e23-2ac71da8848e.jpg">
   </p>
@@ -114,7 +116,6 @@ Change these
   </p>
 
 ### Classification Results
-Change these
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327900-97c6a480-d65a-11ea-8358-314c9aedc6da.png">
   <img src="https://user-images.githubusercontent.com/54719919/89327888-95fce100-d65a-11ea-9a30-78003c9198f9.png">
