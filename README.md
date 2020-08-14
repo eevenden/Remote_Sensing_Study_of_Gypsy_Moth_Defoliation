@@ -86,7 +86,7 @@ This table ranks each variable according to its corrected AUC value. Notice, the
 ### Logistic Regression
 The second portion of this project compares two binary classification techniques, Logisitic Regression and Discriminant Analysis, and determines whether either method is better at identifying defoliation. For both methods, I created two models: the first contains all of the potential independent variables and the second includes the four independent variables with the highest corrected AUC values (i.e. NDMI, Tassled Cap Wetness, NDVI, and Tasseled Cap Greeness). 
 
-The normalized correlation matrices below show the relative success of each model when classifying defoliation using Logistic Regression.
+The normalized confusion matrices below show the relative success of each model when classifying defoliation using Logistic Regression.
 
                                                              Model 1 Results (All)                                
 <p align="center">
@@ -99,7 +99,7 @@ The normalized correlation matrices below show the relative success of each mode
 </p>
 
 ### Discriminant Analysis
-The normalized correlation matrices below show the relative success of each model when classifying defoliation using Discriminant Analysis.
+The normalized confusion matrices below show the relative success of each model when classifying defoliation using Discriminant Analysis.
 
                                                            Model 1 Results (All)
 <p align="center">
