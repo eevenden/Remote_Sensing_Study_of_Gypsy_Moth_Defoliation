@@ -88,12 +88,12 @@ The second portion of this project compares two binary classification techniques
 
 The normalized correlation matrices below show the relative success of each model when classifying defoliation using Logistic Regression.
 
-                                             Model 1 Results (All)                                
+                                                        Model 1 Results (All)                                
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327893-972e0e00-d65a-11ea-92e4-68f547a1f4d7.png">
 </p>
 
-                                       Model 2 Results (Select Variables)
+                                                 Model 2 Results (Select Variables)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327894-972e0e00-d65a-11ea-9df4-04cf067ad196.png">
 </p>
@@ -101,12 +101,12 @@ The normalized correlation matrices below show the relative success of each mode
 ### Discriminant Analysis
 The normalized correlation matrices below show the relative success of each model when classifying defoliation using Discriminant Analysis.
 
-                                             Model 1 Results (All)
+                                                      Model 1 Results (All)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327891-96957780-d65a-11ea-86df-8a0a77a13f0a.png">
 </p>
 
-                                      Model 2 Results (Select Variables)
+                                                Model 2 Results (Select Variables)
 <p align="center">
 <img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
 </p>
