@@ -88,19 +88,27 @@ The second portion of this project compares two binary classification techniques
 
 The normalized correlation matrices below show the relative success of each model when classifying defoliation using Logistic Regression.
 
-                              Model 1 Results (All)                                Model 2 Results (Select Variables)
+                              Model 1 Results (All)                                
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327893-972e0e00-d65a-11ea-92e4-68f547a1f4d7.png">
+</p>
+
+                              Model 2 Results (Select Variables)
+<p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327894-972e0e00-d65a-11ea-9df4-04cf067ad196.png">
 </p>
 
 ### Discriminant Analysis
 The normalized correlation matrices below show the relative success of each model when classifying defoliation using Discriminant Analysis.
 
-                              Model 1 Results (All)                                Model 2 Results (Select Variables)
+                              Model 1 Results (All)
 <p align="center">
   <img src="https://user-images.githubusercontent.com/54719919/89327891-96957780-d65a-11ea-86df-8a0a77a13f0a.png">
-  <img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
+</p>
+
+                              Model 2 Results (Select Variables)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54719919/89327892-972e0e00-d65a-11ea-9c30-b5e3adc8f138.png">
 </p>
 
 Based on these four matrices, the "Discriminant Analysis - Select" Variables model has the most success when identifying defoliated pixels. However, it does not perform as well as the "Discriminant Analysis - All" model or the "Logistic Regression - All" model when identifying foliated pixels. As a result, it's somewhat difficult to evaluate which model is the best. One way we can rank the performance of each model is using TOC curves. 
